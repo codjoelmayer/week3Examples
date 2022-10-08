@@ -1,0 +1,85 @@
+/* Create custom variables. */
+:root {
+    --primaryColor: black;
+    --secondaryColor: white;
+    --alternativeColor: rgba(5, 125, 19, 0.7);
+    --gray: rgba(205, 198, 198, 0.5);
+    --mainBoxShadow: .5vw .5vw .5vw var(--alternativeColor);
+    --landingPage : .5vw 1vw .5vw var(--gray);
+    --activeLink: #00b061;
+}
+/* Select all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header, main, footer */
+header, main, footer {
+    min-width: 100%;
+}
+/* header, footer */
+header, footer {
+    background-color: var(--gray);
+    height: 100px;
+}
+/* Header */
+header {
+    padding: 5px 0;
+}
+.menu-list {
+    display: inline-flex;
+    list-style: none;
+}
+.menu-list li {
+    padding: 0 5px;
+}
+/* Pseudo-classes */
+/* 
+selector:pseudo-class {}
+*/
+a:link {
+    background-color: var(--gray);
+    color: var(--primaryColor);
+}
+a:visited {
+    color: var(--alternativeColor);
+    border-radius: 5px;
+}
+a:hover {
+    font-size: 18px;
+    color: var(--secondaryColor);
+    background-color: darkolivegreen;
+}
+a:active {
+    color: var(--primaryColor);
+    background-color: var(--activeLink);
+}
+/* main */
+
+/* 
+css specificity: https://www.w3schools.com/css/css_specificity.asp
+*/
+/* Box model */
+/* 
+Margin: Space outside the box
+Padding: Space inside the box
+*/
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: var(--alternativeColor);
+    margin: auto;
+    border: 5px solid var(--primaryColor);
+}
+/* Pseudo-selector */
+/* 
+selector::pseudo-selector {}
+*/
+h2::first-letter {
+    margin: 0 1px;
+    background-color: var(--alternativeColor);
+    border-radius: 5px;
+}
+/* import font, icons and styling list and forms */
+/* Position: fixed, relative, absolute, sticky and static*/
