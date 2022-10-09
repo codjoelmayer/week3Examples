@@ -83,3 +83,7 @@ h2::first-letter {
 }
 /* import font, icons and styling list and forms */
 /* Position: fixed, relative, absolute, sticky and static*/
+.wrapper {
+    position: fixed;
+    right: 0;
+}
