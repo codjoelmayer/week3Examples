@@ -81,7 +81,7 @@ h2::first-letter {
     background-color: var(--alternativeColor);
     border-radius: 5px;
 }
-/* import font, icons and styling list and forms */
+/* Typography: font, icons and styling list and forms */
 /* Position: fixed, relative, absolute, sticky and static*/
 .wrapper {
     position: fixed;
