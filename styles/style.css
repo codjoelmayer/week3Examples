@@ -19,6 +19,13 @@
 *::after {
     box-sizing: border-box;
 }
+/* 
+Style that will be apply to all elements place it 
+on the html or body selectors
+*/
+html {
+    text-align: center;
+}
 /* header, main, footer */
 header, main, footer {
     min-width: 100%;
@@ -32,6 +39,9 @@ header, footer {
 header {
     padding: 5px 0;
 }
+/* .menu {
+    width: fit-content;
+} */
 .menu-list {
     display: inline-flex;
     list-style: none;
@@ -81,11 +91,11 @@ Padding: Space inside the box
 /* 
 selector::pseudo-selector {}
 */
-h2::first-letter {
+/* h2::first-letter {
     margin: 0 1px;
     background-color: var(--alternativeColor);
     border-radius: 5px;
-}
+} */
 /* Typography: font, icons and styling list and forms */
 /* Position: fixed, relative, absolute, sticky and static*/
 .wrapper {
