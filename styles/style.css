@@ -12,6 +12,11 @@
 *{
     margin: 0;
     padding: 0;
+}
+/* Select all elements including before and after */
+*,
+*::before, 
+*::after {
     box-sizing: border-box;
 }
 /* header, main, footer */
