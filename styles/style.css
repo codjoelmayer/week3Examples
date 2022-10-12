@@ -91,11 +91,17 @@ Padding: Space inside the box
 /* 
 selector::pseudo-selector {}
 */
-/* h2::first-letter {
-    margin: 0 1px;
-    background-color: var(--alternativeColor);
-    border-radius: 5px;
-} */
+h2::after {
+    content: '';
+    width: .3em;
+    min-height: 100vh;
+    background-color: darkgoldenrod;
+}
+h2::before {
+    content: '';
+    background-color: darkgoldenrod;
+}
+
 /* Typography: font, icons and styling list and forms */
 /* Position: fixed, relative, absolute, sticky and static*/
 .wrapper {
